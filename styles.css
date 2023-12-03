@@ -105,6 +105,9 @@ ul {
   }
 
   .call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 250px;
   }
   
@@ -123,6 +126,16 @@ ul {
     gap: 52px;
     align-items: center;
     
+  }
+
+  .blubox {
+    display: flex;
+    color:#E5E7EB;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 75px;
+    background-color:#3882f6;
   }
 
   .title {
