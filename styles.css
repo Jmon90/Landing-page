@@ -1,29 +1,33 @@
 body {
     margin: 0;
     min-height: 100vh;
-
+    
 }
 .header {
     background: #1f2937;
     display: flex;
-    
     justify-content: space-between;
-    height: 300px;
-    
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .links {
     display: flex;
-    justify-content: space-between;
     gap: 10px;
     margin: 5px;
     padding: 5px;
 }
 
-a{
+a {
     color:white;
+    text-decoration: none;
 
 }
+
+ul {
+    list-style-type: none;
+}
+
 
 .logo {
     font-size: 24px;
@@ -32,3 +36,46 @@ a{
     margin: 5px;
     padding: 5px;
 }
+
+.header-body {
+    display: flex;
+    flex-direction:column;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #E5E7EB;
+  justify-content: space-around;
+    background: #1f2937;
+    height: 250px;
+   
+    
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+   align-items: end;
+    padding: 12px;
+    background-color: lightgray;
+  }
+
+  .random {
+    height: 300px;
+  }
+
+  .quote {
+    height: 300px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+  }
+
+  .call {
+    height: 250px;
+  }
